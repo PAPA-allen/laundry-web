@@ -23,7 +23,7 @@ export default function Header() {
             <span className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
               <span>Phone:</span>
-              <a href="tel:+163-654-3569" className="hover:text-foreground">
+              <a href="tel:+000-000-000" className="hover:text-foreground">
                 +000-000-0000
               </a>
             </span>
