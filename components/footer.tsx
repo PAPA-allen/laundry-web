@@ -20,6 +20,7 @@ export default function Footer() {
         {/* Bottom Section: Copyright */}
         <div className="text-center mt-6 text-sm text-gray-400">
           <p>&copy; 2025 YourCompany. All Rights Reserved.</p>
+          <p>Developed by <span><a href="https://portfolio-a8hp.onrender.com">Allen-Arcnile</a></span></p>
         </div>
       </div>
     </motion.footer>
