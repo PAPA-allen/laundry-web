@@ -39,7 +39,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="text-lg font-medium text-lime-500"
+            className="text-2xl font-medium text-lime-500"
           >
             ABOUT US
           </motion.span>
