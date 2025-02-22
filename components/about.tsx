@@ -19,7 +19,7 @@ export default function About() {
     <section id="about-us" className="py-16 md:py-24">
       <div className="container grid gap-12 lg:grid-cols-2 xl:grid-cols-2">
         <div className="relative flex justify-center items-center">
-          <div className="absolute -left-6 top-6 flex h-20 w-20 items-center justify-center rounded-full bg-lime-500 text-white shadow-xl">
+          <div className="absolute -left-6 top-20 flex h-20 w-20 items-center justify-center rounded-full bg-lime-500 text-white shadow-xl">
             <div className="text-center">
               <div className="text-2xl font-bold">24+</div>
               <div className="text-sm">Years</div>
