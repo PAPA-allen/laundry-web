@@ -1,13 +1,18 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css"
 import { cn } from "@/lib/utils"
 
-const inter = Inter({ subsets: ["latin"] })
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrainsMono",
+  subsets: ["latin"],
+  
+});
+
 
 export const metadata: Metadata = {
-  title: "Laun - Laundry Service",
+  title: "Laundry - Laundry Service",
   description: "Professional laundry and dry cleaning services",
 }
 
@@ -18,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={cn(inter.className, "min-h-screen bg-background antialiased")}>{children}</body>
+      <body className={cn(jetbrainsMono.className, "min-h-screen bg-background antialiased")}>{children}</body>
     </html>
   )
 }
