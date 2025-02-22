@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="relative h-[600px] overflow-hidden">
       {/* Video Background with opacity */}
       <video
-        className="absolute inset-0 w-full h-full object-cover opacity-60" // Added opacity here
+        className="absolute inset-0 w-full h-full object-cover opacity-60"
         autoPlay
         loop
         muted
@@ -51,12 +51,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="flex gap-4"
+          className="flex flex-col sm:flex-row sm:gap-6 gap-4"
         >
-          <Button size="lg" className="bg-lime-500 hover:bg-lime-600">
+          <Button size="lg" className="w-full sm:w-auto bg-lime-500 hover:bg-lime-600">
             DISCOVER MORE
           </Button>
-          <Button size="lg" variant="outline" className="text-black hover:text-lime-500">
+          <Button size="lg" variant="outline" className="w-full sm:w-auto text-black hover:text-lime-500">
             CONTACT US
           </Button>
         </motion.div>
